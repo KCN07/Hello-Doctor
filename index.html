@@ -1,179 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow-sm p-2 mb-5 bg-white " >
-        <img src="image/logo1.png" alt="logo" width="30" height="30">
-        <a class="navbar-brand" href="#">Hello,Doctor</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+<body data-spy="scroll" data-target="#myScrollspy">
 
-    <div class="sidebar pr-3" id="sidenav">
-        <span class="d-none d-lg-block ml-4"><img class="img-fluid img-profile rounded-circle mx-auto mb-2 " src="image/dp.jpg" alt="Dr.golapi" /></span>
-        <h1 class="vcard-names pl-2 pl-md-0">
-            <span class="p-name vcard-fullname d-block overflow-hidden" itemprop="name" style="text-align: center;">Dr Golapi</span>
-           
-          </h1>
-        
-        <button name="button" type="button" class="btn btn-block mb-3 ">Edit profile</button>
+    <nav class="navbar navbar-expand-lg  navbar-light fixed-top shadow-sm p-2 mb-5 bg-white " >
+        <div class="container">
+            <!-- <img src="image/logo1.png" alt="logo" width="30" height="30"> -->
+            <i class="fas fa-heartbeat fa-lg pr-2" style="color:#495057;" ></i>
+            <a class="navbar-brand" href="#" style="color:#2c485e;">Hello,Doctor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="contact">
-            <ul class="details">
-                <li><i class="far fa-envelope"></i> <a class="u-email link-gray-dark " href="mailto:mahmudsajjad.abeer@gmail.com">mahmudsajjad.abeer@gmail.com</a></li>
-                <li><i class="fas fa-map-marker-alt"></i>
-                Dhaka, Bangladesh</li>
-            </ul>
-        </div>
-        <div class="social-icons " style="margin-left: 1.5rem;">
-            <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
-            <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
-        </div>
-    </div>
-
-    <div class="container-fluid p-0 main">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Dr.
-                    <span class="text-primary">Goplapi</span>
-                </h1>
-                <div class="subheading mb-5">
-                    107 Tuhin Street, Tangail Sadar, Tangail · (+880) 1521-308410 ·
+            <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dr. Golapi
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <a class="dropdown-item" href="#">Logout</a>
+                            
+                        </div>
+                    </li>
                     
-                </div>
-                <p class="lead mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quis ullam consequuntur quaerat hic, modi id neque impedit, dolore natus, illo officiis obcaecati quam provident est aspernatur sequi ipsam voluptas ab perferendis. Quo corporis ratione accusantium eaque voluptate neque, recusandae in, labore eos illum, nostrum laudantium eligendi exercitationem minus perspiciatis?</p>
-                
+                </ul>
+                <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="border-color: #007bff;">
+                    <button class="btn btn-outline my-2 my-sm-0 search" type="submit" >Search</button>
+                </form> -->
             </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Experience-->
-        <section class="resume-section" id="experience">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Specialist</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Assistant Professor,
-                            Neuromedicine Specialist</h3>
-                        <div class="subheading mb-3"> Bangabandhu Sheikh Mujib medical University </div>
-                        <p>He is a specialist in Neuromedicine Department
-                            (Spinal Cord, Brain, Nerve)</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">1984 - Present</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Professor, Neurology</h3>
-                        <div class="subheading mb-3"> Dhaka Medical College</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias doloribus reprehenderit minus nesciunt, iste minima optio accusantium atque temporibus assumenda et fugiat tenetur exercitationem quaerat iusto dolore distinctio eius nam? Hic qui officia rerum exercitationem cumque amet, natus ab eligendi quos dolore totam, numquam doloremque ratione. Pariatur, blanditiis aperiam.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary"> 1996 - 2003</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Professor & Director </h3>
-                        <div class="subheading mb-3"> National Institute of Neuroscience</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ducimus corrupti sunt quis corporis numquam deleniti sint nemo quisquam? Dicta exercitationem adipisci soluta voluptatum qui quis quia neque laboriosam obcaecati.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary"> 2010 - present</span></div>
-                </div>
-                
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Education-->
-        <section class="resume-section" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Education</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Dhaka Medical College</h3>
-                        <div class="subheading mb-3"> MBBS</div>
-                        
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">1978</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Bangladesh College of Physicians & Surgeons (BCPS)</h3>
-                        <div class="subheading mb-3">FCPS (Medicine) </div>
-                        
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">1983</span></div>
-                </div>
+        </div>
+    </nav>
+    <div class="container" >
+        <div class="row">
+            <!--Sidebar-->
+        <div class="sidebar col-sm-4 " id="sidenav">
+            <div class="container">
+                <span class="d-none d-lg-block ml-4"><img class="img-fluid img-profile rounded-circle mx-auto mb-2 "
+                        src="image/dp.jpg" alt="Dr.golapi" /></span>
+                <h1 class="vcard-names pl-2 pl-md-0">
+                    <span class="p-name vcard-fullname d-block overflow-hidden" itemprop="name"
+                        style="text-align: center;">Dr. Golapi</span>
 
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Dhaka University</h3>
-                        <div class="subheading mb-3">MD (Neurology) </div>
-                        
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">1994</span></div>
-                </div>
+                </h1>
 
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Clinical Neurophysiology in University Hospital Madison USA</h3>
-                        <div class="subheading mb-3">fellowship </div>
-                        
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">1989</span></div>
+                <button name="button" type="button" class="btn btn-block mb-3 ">Edit profile</button>
+
+                <div class="contact">
+                    <ul class="details">
+                        <li><i class="far fa-envelope"></i> <a class="u-email link-gray-dark "
+                                href="mailto:mahmudsajjad.abeer@gmail.com" style="color: #6c757d;">mahmudsajjad.abeer@gmail.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i>
+                            Dhaka, Bangladesh</li>
+                    </ul>
+                </div>
+                <div class="social-icons " style="margin-left: 1.5rem;">
+                    <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
                 </div>
             </div>
-        </section>
-        
-        <hr class="m-0" />
-        <!-- Awards-->
-        <section class="resume-section" id="awards">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Chamber</h2>
+        </div>
+
+        <div class="container-fluid p-0 main col-sm-7">
+            <div class="container" >
+                <!-- About-->
+                <section class="resume-section  mb-5" id="about">
+                    <div class="resume-section-content">
+                        <div style="padding-bottom: 100px;">
+                        <img src="image/newQr.svg" alt="qr" width="100" height="100" style="float: right;">
+                    </div>
+                        <h1 class="mb-0">
+                            Dr.
+                            <span class="text-primary">Golapi</span>
+                        </h1>
+                        <div class="subheading mb-5">
+                            107 Tuhin Street, Tangail Sadar, Tangail · (+880) 1521-308410 ·
+
+                        </div>
+                        <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, alias repellat ea vero tempore illum optio enim doloribus expedita cupiditate eligendi saepe ducimus sunt cumque?</p>
+
+                    </div>
+                    <div id="myScrollspy">
+                    <a href="#chamber" class="btn btn-primary my-2 my-sm-0 ml-0" type="submit" style="margin-bottom: 50px; color: white;" >Make an appointment</a>
+                </div>
+                </section>
+                <hr class="m-0" />
+                <!-- Experience-->
+                <section class="resume-section" id="experience">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Specialist</h2>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Assistant Professor,
+                                    Neuromedicine Specialist</h3>
+                                <div class="subheading mb-3"> Bangabandhu Sheikh Mujib medical University </div>
+                                <p>He is a specialist in Neuromedicine Department
+                                    (Spinal Cord, Brain, Nerve)</p>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">1984 - Present</span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Professor, Neurology</h3>
+                                <div class="subheading mb-3"> Dhaka Medical College</div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias doloribus
+                                    reprehenderit minus nesciunt, iste minima optio accusantium atque temporibus
+                                    assumenda et fugiat tenetur exercitationem quaerat iusto dolore distinctio eius nam?
+                                    Hic qui officia rerum exercitationem cumque amet, natus ab eligendi quos dolore
+                                    totam, numquam doloremque ratione. Pariatur, blanditiis aperiam.</p>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary"> 1996 - 2003</span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Professor & Director </h3>
+                                <div class="subheading mb-3"> National Institute of Neuroscience</div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ducimus corrupti sunt
+                                    quis corporis numquam deleniti sint nemo quisquam? Dicta exercitationem adipisci
+                                    soluta voluptatum qui quis quia neque laboriosam obcaecati.</p>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary"> 2010 - present</span></div>
+                        </div>
+
+                    </div>
+                </section>
+                <hr class="m-0" />
+                <!-- Education-->
+                <section class="resume-section" id="education">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Degrees</h2>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Dhaka Medical College</h3>
+                                <div class="subheading mb-3"> MBBS</div>
+
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">1978</span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Bangladesh College of Physicians & Surgeons (BCPS)</h3>
+                                <div class="subheading mb-3">FCPS (Medicine) </div>
+
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">1983</span></div>
+                        </div>
+
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Dhaka University</h3>
+                                <div class="subheading mb-3">MD (Neurology) </div>
+
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">1994</span></div>
+                        </div>
+
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Clinical Neurophysiology in University Hospital Madison USA</h3>
+                                <div class="subheading mb-3">fellowship </div>
+
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">1989</span></div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="m-0" />
                 
+                <section class="resume-section" id="chamber">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Chambers</h2>
+                        <div class="row chambercard ">
+                            <div class="card  col-sm-7  chamberdetails" style="width: 18rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Al-RAZI ISLAMIA HOSPITAL(PVT.) LTD</h5>
+                                  <h6 class="card-subtitle mb-2 text-muted">Assistant Professor(Neurology)</h6>
+                                  <p class="card-text"><strong>Address:</strong> House: 09, Block: G, Banasree Main Road, Rampura, Dhaka -1019, Bangladesh.</p>
+                                  <p class="card-text"><strong>Contact:</strong> 02-8399114-7,</p>
+                                  <p class="card-text"><strong>Help Line:</strong> 1766-118855,</p>
+                                  <p class="card-text"><strong>Email:</strong> arih7613@gmail.com.</p>
+                                  
+                                </div>
+                              </div>
+                              <div class="card col-sm-5 chamber-visitinghours" style="width: 18rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title"><i class="far fa-clock"></i> VISITING HOURS</h5>
+                                  <ul class="list-group mt-5">
+                                    <li><strong>Mon - Fri</strong> <span  style="float: right;"> 8:00 - 20:30</span></li>
+                                    <hr class="m-0" />
+                                    <li><strong>Saturday</strong> <span style="float: right;"> 8:30 - 18:00</span></li>
+                                    <hr class="m-0" />
+                                    <li><strong>Sunday</strong> <span style="float: right;"> 9:00 - 14:30</span></li>
+                                </ul>
+
+                                  
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="row chambercard">
+                            <div class="card col-sm-7 chamberdetails" style="width: 18rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title">NATIONAL MEDICAL COLLEGE HOSPITALS</h5>
+                                  <h6 class="card-subtitle mb-2 text-muted">Assistant Professor(Neuromedicine Department)</h6>
+                                  <p class="card-text"><strong>Address:</strong>  53/1, Johnson Rd, Dhaka 1100, Bangladesh.</p>
+                                  <p class="card-text"><strong>Phone: </strong> +880 2-47118967</p>
+                                  
+                                  <p class="card-text"><strong>Email:</strong> arih7613@gmail.com.</p>
+                                  
+                                </div>
+                              </div>
+                              <div class="card col-sm-5 chamber-visitinghours" style="width: 18rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title"><i class="far fa-clock"></i> VISITING HOURS</h5>
+                                  <ul class="list-group mt-5">
+                                    <li><strong>Mon - Fri</strong> <span  style="float: right;"> 8:00 - 20:30</span></li>
+                                    <hr class="m-0" />
+                                    <li><strong>Saturday</strong> <span style="float: right;"> 8:30 - 18:00</span></li>
+                                    <hr class="m-0" />
+                                    <li><strong>Sunday</strong> <span style="float: right;"> 9:00 - 14:30</span></li>
+                                </ul>
+
+                                  
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
     </div>
+    </div>
+
     <!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,5 +1,7 @@
+
 body {
-    margin: 0;
+    margin: 0 ;
+    
     font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
@@ -7,6 +9,7 @@ body {
     color: #6c757d;
     text-align: left;
     background-color: #fff;
+    background-position: center;
   }
   .sidebar {
     height: 100%;
@@ -15,21 +18,25 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    color: #818181;
-    background-color: #111;
+    color: #6c757d;
+    background-color: white;
     overflow-x: hidden;
     padding-top: 100px;
+    margin-left: 110px;
+    -webkit-background-filter: blur(5px);
+    /* filter: blur(); rgba(0, 0, 0, 0.6)*/
   }
+ 
   .btn{
-    color: #818181;
-    border-color:  #818181;
+    color: #6c757d;
+    border-color:  #c1c1c1#6c757d;
     margin-left: 8px;
     box-shadow: 0 1px 0 rgba(27,31,35,.04), inset 0 1px 0 hsla(0,0%,100%,.25);
     transition: background-color .2s cubic-bezier(.3,0,.5,1);
   }
   .btn:hover{
       color: white;
-      border-color: white;
+      background-color:  #6c757d;
   }
   .link-gray-dark {
     color: #818181;
@@ -71,8 +78,9 @@ body {
   }
 
   .main{
-    margin-top: 200px;
-    margin-left: 350px;
+    
+    margin-top: 100px;
+    margin-left: 400px;
     padding: 0px 10px;
   }
   .subheading {
@@ -80,4 +88,46 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.5rem;
+  }
+
+  nav{
+    /* color:#2c485e; */
+
+  }
+  .nav-item{
+    padding-right: 20px;
+  }
+  .nav-link{
+    color:#2c485e;
+    font-weight: 600;
+  }
+
+  .search{
+    color: #007bff; border-color: #007bff;
+  } 
+  .search:hover{
+    color:white;
+    background-color: #007bff;
+  }
+
+  .card{
+    background-color:#c6e6fb;
+    margin-bottom: 20px;
+  }
+  li{
+    margin-bottom: 10px;
+  }
+  .chamberdetails{
+    border-radius: 0.25rem 0rem 0rem 0.25rem;
+    background-color: white;
+    border-color: #007bff;
+  }
+  .chamber-visitinghours{
+    border-radius: 0rem 0.25rem 0.25rem 0rem;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+  }
+  .chambercard{
+
   }
