@@ -15,11 +15,11 @@ body {
     border: 1px solid #007bff;
    
   }
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     .sidebar {
       position: relative;
     }
-    
+     */
 
   .sidebar {
     height: 100%;
@@ -39,10 +39,10 @@ body {
   section.resume-section .resume-section-content {
     width: 100%;
   }
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     section.resume-section {
       min-height: 70vh;
-    } 
+    }  */
     
  
   .btn{
