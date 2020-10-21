@@ -151,3 +151,39 @@ body {
   .chambercard{
 
   }
+
+     @media (max-width: 768px) {
+      body{
+        margin-left: 10px;
+        margin-right: 10px;
+       
+      }
+
+    .sidebar {
+      
+      position: static;
+      align-items: center;
+     
+      width: 400px;
+     
+    }
+     .main{
+       max-width: 400px;
+      margin-top: 20px;
+       margin-left: 10px; 
+      align-items: center;
+      font-size: 0.8rem; 
+      display: block;
+    } 
+    
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    .qr{
+      height: 70px;
+      weight: 70px;
+    }
+    }   
